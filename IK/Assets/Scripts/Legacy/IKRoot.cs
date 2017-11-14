@@ -52,8 +52,8 @@ public class IKRoot : MonoBehaviour {
         for (int i = 0; i < mBones.Count; i++)
         {
             Color boneCol = (i % 2 == 0) ? Color.red : Color.magenta;
-            if (AdvancedGizmos) mBones[i].RenderGizmosBasic(boneCol);
-            else mBones[i].RenderGizmos(boneCol);
+            if (AdvancedGizmos) mBones[i].RenderGizmos(boneCol);
+            else mBones[i].RenderGizmosBasic(boneCol);
         }
     }
 }

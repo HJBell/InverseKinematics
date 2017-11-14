@@ -78,11 +78,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\IKBone.cs" />
-    <Compile Include="Assets\Scripts\IKRoot.cs" />
+    <Compile Include="Assets\Scripts\IKBone_Trans.cs" />
+    <Compile Include="Assets\Scripts\IKRoot_Trans.cs" />
+    <Compile Include="Assets\Scripts\Legacy\IKBone.cs" />
+    <Compile Include="Assets\Scripts\Legacy\IKRoot.cs" />
+    <Compile Include="Assets\Scripts\Legacy\PostRender.cs" />
+    <Compile Include="Assets\Scripts\Legacy\Utils.cs" />
     <Compile Include="Assets\Scripts\Oscillator.cs" />
-    <Compile Include="Assets\Scripts\PostRender.cs" />
-    <Compile Include="Assets\Scripts\Utils.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
